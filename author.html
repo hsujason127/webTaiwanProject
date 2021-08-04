@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>關於作者|台灣經濟發展歷史</title>
+    <!--字體-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <!--head icon-->
+    <link rel="shortcut icon" href="./twicon/taiwanIcon.png" />
+    <link rel="bookmark" href="./twicon/taiwanIcon.png" />
+
+    <link rel="stylesheet" type="text/css" href="./persona-main/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $("#point1").click(function() {
+          $("#photo1").fadeIn();
+          $("#photo2").fadeOut();
+          $("#photo3").fadeOut();
+
+          $("#point1").css("background-color", "lightseagreen");
+          $("#point2").css("background-color", "white");
+          $("#point3").css("background-color", "white");
+        })
+
+        $("#point2").click(function() {
+          $("#photo2").fadeIn();
+          $("#photo1").fadeOut();
+          $("#photo3").fadeOut();
+
+          $("#point2").css("background-color", "lightseagreen");
+          $("#point1").css("background-color", "white");
+          $("#point3").css("background-color", "white");
+        })
+
+        $("#point3").click(function() {
+          $("#photo3").fadeIn();
+          $("#photo2").fadeOut();
+          $("#photo1").fadeOut();
+
+          $("#point3").css("background-color", "lightseagreen");
+          $("#point2").css("background-color", "white");
+          $("#point1").css("background-color", "white");
+        })
+      })
+    </script>
+
+    <!--Icon-->
+    <link rel="Stylesheet" href="./twicon/twicon.css" />
+  </head>
+  <body>
+    <!--標題-->
+    <header>
+      <h1 class="headerTitle"><i class="twicon-main-island"></i>台灣經濟發展歷史</h1>
+      <h3 class="headerText">過去70年台灣經濟發展的歷史以及相關政策</h3>
+  </header>
+
+  <!--導覽列-->
+  <nav>
+      <ul>
+          <li><a href="./index.html"><i class="twicon-main-island"></i> 首頁</a></li>
+          <li><a href="./agriculture.html"><i class="twicon-lovers-brg"></i> 農業改革</li>
+          <li><a href="./industrialization.html"><i class="twicon-san-domingo"></i> 工業改革</a></li>
+          <li><a href="./"><i class="twicon-taipei101"></i> 經濟起飛</a></li>
+          <li><a class="active" href="./author.html"><i class="twicon-red-man"></i> 關於作者</a></li>
+      </ul>
+  </nav>
+    <div id="card">
+      <div id="photo">
+        <img src="./persona-main/photo-1.jpg" width="238" height="244" id="photo1"/>
+        <img src="./persona-main/photo-2.jpg" width="238" height="244" id="photo2"/>
+        <img src="./persona-main/photo-3.jpg" width="238" height="244" id="photo3"/>
+        <div class="point" id="point1"></div>
+        <div class="point" id="point2"></div>
+        <div class="point" id="point3"></div>
+      </div>
+      <div id="intro">
+        <h1>徐千傑</h1>
+        <h2>21 歲</h2>
+        <h2>台大大氣系</h2>
+        <h2>苗栗, 台北</h2>
+        <h3>Try your best, and believe yourself.</h3>
+      </div>
+      <div id="about">
+        <h4><i class="fas fa-user-tie"></i> 關於我</h4>
+        <br>
+        <p>
+          目前就讀台大大氣，近期申請轉入台大資管，希望能順利成功轉入！對寫程式很有熱忱，以成為軟體工程師為目標。
+        </p>
+        <br>
+        <h4><i class="fas fa-users"></i> 社團／活動經歷</h4>
+        <br>
+        <p>
+          <ul>
+            <li>
+              台大吉他社108級活動
+            </li>
+            <li>
+              玉山青年菁英論壇CTY15 學員
+            </li>
+            <li>
+              第六屆玉山跨視際青年論壇 學員
+            </li>
+          </ul>
+        </p>
+        <br>
+        <h4><i class="fas fa-flag-checkered"></i> 競賽經歷</h4>
+        <br>
+        <p>
+          <ul>
+            <li>
+              2021 ATCC商業競賽 隊長
+            </li>
+            <li>
+              2021 PDAO程式競賽
+            </li>
+          </ul>
+        </p>
+        <br>
+        <h4><i class="fas fa-paper-plane"></i> 社群連結</h4>
+        <br>
+        <p>
+          <ul>
+            <li><a href="https://www.facebook.com/qianchieh.hus/" target="_blank">FaceBook</a></li>
+            <li><a href="https://www.instagram.com/c.j_0127/" target="_blank">Instagram</a></li>
+            <li><a href="https://github.com/hsujason127" target="_blank">GitHub</a></li>
+          </ul>
+        </p>
+      </div>
+      <div id="other">
+        <h4><i class="fas fa-smile"></i> 個性</h4>
+        <br>
+        <div class="block">
+          <div class="left-text">內向</div>
+          <div class="right-text">外向</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar1"></div>
+        </div>
+        <div class="block">
+          <div class="left-text">理性</div>
+          <div class="right-text">感性</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar2"></div>
+        </div>
+        <div class="block">
+          <div class="left-text">警慎</div>
+          <div class="right-text">冒險</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar3"></div>
+        </div>
+        <div class="block">
+          <div class="left-text">思考</div>
+          <div class="right-text">行動</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar4"></div>
+        </div>
+        <br>
+        <h4><i class="fas fa-hammer"></i> 技能</h4>
+        <br>
+        <div class="block">
+          <div class="left-text">C++</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar5"></div>
+        </div>
+        <div class="block">
+          <div class="left-text">Python</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar6"></div>
+        </div>
+        <div class="block">
+          <div class="left-text">HTML</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar7"></div>
+        </div>
+        <div class="block">
+          <div class="left-text">CSS</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar8"></div>
+        </div>
+        <div class="block">
+          <div class="left-text">JavaScript</div>
+          <div class="gray-bar"></div>
+          <div class="green-bar" id="green-bar9"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
